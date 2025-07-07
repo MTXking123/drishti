@@ -1,5 +1,4 @@
 import React from "react";
-import docImg from "../../../public/Images/dr_manish.jpg";
 import Image from "next/image";
 
 const Doctor = () => {
@@ -9,11 +8,12 @@ const Doctor = () => {
         <div className=" relative lg:w-1/2">
           <div className="  bg-gray-200 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
             <div className="w-full lg:w-auto lg:-mr-32">
-              <Image
-                src={docImg}
-                alt="image with decent chairs"
-                className="w-full relative lg:pl-20 px-6 py-14"
-              />
+             <Image className="p-20"
+  src="/Images/dr_manish.jpg"
+  alt="Dr. Manish"
+  width={576}
+  height={814}
+/>
             </div>
           </div>
           <div className="absolute top-0   md:h-96 w-full hidden md:block lg:hidden"></div>
