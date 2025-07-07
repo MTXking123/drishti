@@ -3,28 +3,20 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa"; // Import arrow icons from react-icons
-import Slider1 from "../../../public/Images/slider1.png";
-import Slider2 from "../../../public/Images/slider2.png";
-import Slider3 from "../../../public/Images/slider3.png";
-import Slider4 from "../../../public/Images/slider4.png";
-import SmallSlider1 from "../../../public/Images/img1.png";
-import SmallSlider2 from "../../../public/Images/img2.png";
-import SmallSlider3 from "../../../public/Images/img3.png";
-import SmallSlider4 from "../../../public/Images/img4.png";
 
 
 const slidesLarge = [
-  { id: 1, text: "Welcome to Our Site!", imageUrl: Slider1 },
-  { id: 2, text: "Innovative Solutions for You", imageUrl: Slider2 },
-  { id: 3, text: "Your Success, Our Commitment", imageUrl: Slider3 },
-  { id: 4, text: "Your Success, Our Commitment", imageUrl: Slider4 },
+  { id: 1, text: "Welcome to Our Site!",imageUrl:"/images/slider1.png" },
+  { id: 2, text: "Innovative Solutions for You", imageUrl: "/images/slider2.png" },
+  { id: 3, text: "Your Success, Our Commitment", imageUrl: "/images/slider3.png" },
+  { id: 4, text: "Your Success, Our Commitment", imageUrl: "/images/slider4.png" },
 ];
 
 const slidesSmall = [
-  { id: 1, text: "Compact View 1", imageUrl: SmallSlider1 },
-  { id: 2, text: "Compact View 2", imageUrl: SmallSlider2 },
-  { id: 3, text: "Compact View 2", imageUrl: SmallSlider3 },
-  { id: 4, text: "Compact View 2", imageUrl: SmallSlider4 },
+  { id: 1, text: "Compact View 1", imageUrl: "/Images/img1.png" },
+  { id: 2, text: "Compact View 2", imageUrl: "/Images/img2.png" },
+  { id: 3, text: "Compact View 2", imageUrl: "/Images/img3.png" },
+  { id: 4, text: "Compact View 2", imageUrl: "/Images/img4.png" },
 
 
 
