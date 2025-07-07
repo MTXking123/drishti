@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../public/Images/logo.jpeg";
 import Footerheader from "./Footerheader";
 
 function Footer() {
@@ -13,7 +12,7 @@ function Footer() {
           <div className="pb-8">
             <Link href="/">
               <Image
-                src={logo}
+                src={"/Images/logo.jpeg"}
                 height={900}
                 width={900}
                 alt="dd"

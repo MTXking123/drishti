@@ -2,9 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/Images/logo2.jpeg";
-import open from "../../../public/Images/open.jpg";
-import close from "../../../public/Images/close.jpg";
 // import logo1 from "../../public/Images/Main_logo.png";
 
 import { useState } from "react";
@@ -32,7 +29,7 @@ const Nav = () => {
             <div className="flex  items-center justify-between py-0 md:py-0 md:block">
               <Link href="/">
                 <Image
-                  src={logo}
+                  src={"/Images/logo2.jpeg"}
                   height={900}
                   width={900}
                   alt="dd"
@@ -47,7 +44,7 @@ const Nav = () => {
                 >
                   {navbar ? (
                     <Image
-                      src={close}
+                      src={"/Images/close.jpg"}
                       width={30}
                       height={30}
                       alt="logo"
@@ -55,7 +52,7 @@ const Nav = () => {
                     />
                   ) : (
                     <Image
-                      src={open}
+                      src={"/Images/open.jpg"}
                       width={30}
                       height={30}
                       alt="logo"
