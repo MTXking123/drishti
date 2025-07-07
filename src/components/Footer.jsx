@@ -12,7 +12,7 @@ function Footer() {
           <div className="pb-8">
             <Link href="/">
               <Image
-                src={"/Images/logo.jpeg"}
+                src="/Images/dr_manish.jpg"
                 height={900}
                 width={900}
                 alt="dd"
