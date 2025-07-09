@@ -13,10 +13,10 @@ const slidesLarge = [
 ];
 
 const slidesSmall = [
-  { id: 1, text: "Compact View 1", imageUrl: "/Images/img1.png" },
-  { id: 2, text: "Compact View 2", imageUrl: "/Images/img2.png" },
-  { id: 3, text: "Compact View 2", imageUrl: "/Images/img3.png" },
-  { id: 4, text: "Compact View 2", imageUrl: "/Images/img4.png" },
+  { id: 1, text: "Compact View 1", imageUrl: "/images/img1.png" },
+  { id: 2, text: "Compact View 2", imageUrl: "/images/img2.png" },
+  { id: 3, text: "Compact View 2", imageUrl: "/images/img3.png" },
+  { id: 4, text: "Compact View 2", imageUrl: "/images/img4.png" },
 
 
 
