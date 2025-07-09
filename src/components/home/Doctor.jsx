@@ -9,7 +9,7 @@ const Doctor = () => {
           <div className="  bg-gray-200 w-full lg:w-10/12 lg:h-full lg:flex justify-end items-center">
             <div className="w-full lg:w-auto lg:-mr-32">
              <Image className="p-20"
-  src="/Images/dr_manish.jpg"
+  src="/images/dr_manish.jpg"
   alt="Dr. Manish"
   width={576}
   height={814}

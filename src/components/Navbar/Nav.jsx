@@ -29,7 +29,7 @@ const Nav = () => {
             <div className="flex  items-center justify-between py-0 md:py-0 md:block">
               <Link href="/">
                 <Image
-                  src={"/Images/logo2.jpeg"}
+                  src={"/images/logo2.jpeg"}
                   height={900}
                   width={900}
                   alt="dd"
